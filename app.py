@@ -86,6 +86,3 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
         "access_token": create_access_token(user['email']),
         "refresh_token": create_refresh_token(user['email']),
     }
-
-if __name__=="__main__":
-    app.run(debug=True, port=8080)
