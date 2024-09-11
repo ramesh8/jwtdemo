@@ -1,11 +1,11 @@
 ## create .env file with following keys
 
-JWT_SECRET_KEY=mysecretkey
-JWT_REFRESH_SECRET_KEY=myrefreshkey
+JWT_SECRET_KEY=mysecretkey \
+JWT_REFRESH_SECRET_KEY=myrefreshkey 
 
 ## create venv
-python -m venv env
-env\Scripts\activate
+python -m venv env \
+env\Scripts\activate 
 
 ## install requirements
 pip install -r requirements.txt
