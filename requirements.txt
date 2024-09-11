@@ -1,0 +1,9 @@
+fastapi
+python-dotenv
+python-multipart
+pymongo
+uvicorn
+fuzzywuzzy
+requests
+python-jose[cryptography]
+passlib[bcrypt]
